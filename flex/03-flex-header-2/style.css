@@ -14,6 +14,7 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
+  padding: 5px 0;
 }
 
 .profile-image {
@@ -48,15 +49,16 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 10px;
-  padding-left: 10px;
+  gap: 16px;
+  padding-left: 0;
 }
 
 .left-links, .right-links {
   display: flex;
+  /* wala na dapat justify-content kasi meron na sa header */
   justify-content: space-between;
   align-items: center;
   /* border: 5px solid red; */
   gap: 16px;
-  margin: 8px;
+  margin: 0 8px;
 }
