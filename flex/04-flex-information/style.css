@@ -24,3 +24,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+body {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  /* pweds na wala yung text-align kasi naka justify-content: center na */
+  text-align: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.text {
+  /* width: 200px; */
+  /* use max-width para pag ni-resize yung window mag a-adjust din */
+  max-width: 200px;
+}
